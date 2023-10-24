@@ -1,0 +1,15 @@
+#main {
+    -fx-background-image: url("background.jpg");
+    -fx-background-position: center;
+    -fx-alignment: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 150%;
+}
+
+Label {
+    -fx-text-fill: white;
+}
+
+Button {
+    -fx-padding: inherit;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="main" prefHeight="401.0" prefWidth="609.0" stylesheets="@main_window.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.ButtonController">
+   <children>
+      <Button fx:id="endButton" alignment="CENTER" layoutX="223.0" layoutY="316.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="164.0" text="Konec" AnchorPane.bottomAnchor="58.6" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="222.0" />
+      <Button fx:id="twoPlayers" layoutX="223.0" layoutY="173.0" mnemonicParsing="false" onAction="#twoPlayers" prefHeight="26.0" prefWidth="164.0" text="Hra dvou hráčů" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="222.0" />
+      <Button layoutX="223.0" layoutY="222.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="164.0" text="Hra proti počítači" AnchorPane.bottomAnchor="153.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="222.0" />
+      <Button layoutX="223.0" layoutY="268.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="164.0" text="Hra po internetu" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="222.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="68.0" prefHeight="58.0" prefWidth="328.0" stylesheets="@main_window.css" text="  The Drake" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="136.0" AnchorPane.rightAnchor="145.0">
+         <font>
+            <Font name="Imprint MT Shadow" size="62.0" />
+         </font>
+         <effect>
+            <DropShadow height="18.66" radius="17.6025" spread="0.46" width="53.75" />
+         </effect></Label>
+   </children>
+</AnchorPane>

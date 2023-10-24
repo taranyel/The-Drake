@@ -1,0 +1,19 @@
+#orange_back {
+    -fx-background-image: url("orange_back.jpg");
+    -fx-background-position: center;
+    -fx-alignment: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 150%;
+}
+
+Label {
+    -fx-pref-height: 58.0;
+    -fx-pref-width: 560;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+}
+
+Button {
+    -fx-pref-height: 45.0;
+    -fx-pref-width: 200.0;
+}
